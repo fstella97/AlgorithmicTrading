@@ -4,19 +4,20 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is intended to give algorithmic guidance for both long and short term investment strategies. 
+Being this a project under construction, we will first focus on long-term strategies.
 	
 ## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+The whole code is developed on Python. Please refer to Anaconda https://www.anaconda.com/ for a compiler.
 	
 ## Setup
-To run this project on anaconda, the following libraries are needed. Please intall them by writing on the anaconda prompt:
-
+In order to run this project on Anaconda, the following libraries are needed. Please intall them by writing on the anaconda prompt:
+# For the Basic Finance script:
 ```
 $ conda install -c anaconda pandas-datareader
-$ 
-$ 
+$ conda install -c plotly plotly 
+```
+# For the Pair Trading script:
+```
+conda install -c ml4t yfinance
 ```
