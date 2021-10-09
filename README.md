@@ -12,12 +12,12 @@ The whole code is developed on Python. Please refer to Anaconda https://www.anac
 	
 ## Setup
 In order to run this project on Anaconda, the following libraries are needed. Please intall them by writing on the anaconda prompt:
-# For the Basic Finance script:
+### For the Basic Finance script:
 ```
 $ conda install -c anaconda pandas-datareader
 $ conda install -c plotly plotly 
 ```
-# For the Pair Trading script:
+### For the Pair Trading script:
 ```
 conda install -c ml4t yfinance
 ```
