@@ -19,5 +19,6 @@ $ conda install -c plotly plotly
 ```
 ### For the Pair Trading script:
 ```
-conda install -c ml4t yfinance
+$ conda config --append channels conda-forge
+$ conda install -c ml4t yfinance
 ```
